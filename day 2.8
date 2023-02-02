@@ -1,0 +1,11 @@
+import re
+
+p =str(input("enter string"))
+s =str(input("enter string")) 
+
+p = r"{}".format(p)
+p = re.compile(p)
+if p.fullmatch(s):
+    print("true")
+else:
+    print("false")
