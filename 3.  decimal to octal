@@ -1,0 +1,5 @@
+n=int(input("enter the decimal number"))
+
+a=format(n,'o')
+
+print(a)
