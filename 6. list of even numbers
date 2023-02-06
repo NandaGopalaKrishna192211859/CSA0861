@@ -1,0 +1,5 @@
+list1 = list(range(4,30))
+
+for num in list1:
+    if num % 2 == 0:
+        print(num, end=" ")
