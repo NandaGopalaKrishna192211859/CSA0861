@@ -1,0 +1,19 @@
+n=int(input("enter the salary"))
+
+a = n + (10/100)*n + (2/100)*n
+b = n + (10/100)*n
+c = n + (5/100)*n
+d = n + (2/100)*n
+
+if(n<=10000):
+    print("D grade")
+    print("basic salary and bonus is",a)
+elif(n<=25000 and n>=10000):
+    print("C grade")
+    print("basic salary and bonus is",b)
+elif(n<=60000 and n>=25000):
+    print("B grade")
+    print("basic salary and bonus is",c)
+else:
+    print("A grade")
+    print("basic salary and bonus is",d)
