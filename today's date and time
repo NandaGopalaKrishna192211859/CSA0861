@@ -1,0 +1,7 @@
+import datetime
+todaydate = datetime.datetime.now()
+year = todaydate.strftime("%Y")
+month = todaydate.strftime("%m")
+day = todaydate.strftime("%d")
+FormattedDate = day+month+year
+print(FormattedDate)
