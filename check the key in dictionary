@@ -1,0 +1,12 @@
+a = {1:"honda" , 2:"hero" , 3:"yamaha" , 4:"pulser" , 5:"ktm" , 6:"bmw"}
+
+i=0
+for i in range(1,6):
+    if(a[i] == "pulser"):
+        print("it is existed", i, a[i])
+        break
+    else:
+        continue
+        print("it is not existed")
+
+print(a)
